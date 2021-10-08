@@ -1,0 +1,25 @@
+@startuml
+class Solution41 {
+    names = Arraylist<String>
+
+    main(String[])
+
+    sortNames(names)
+    outputNames(names)
+
+}
+Solution41 *-- sortNames
+Solution41 *-- outputNames
+
+class sortNames{
+}
+
+class outputNames{
+}
+
+
+
+
+
+
+@enduml
