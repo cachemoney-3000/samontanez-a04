@@ -1,14 +1,11 @@
 @startuml
 class Solution42 {
     'attributes
-    -names: Arraylist((String[])
+    -employees: Arraylist((String[])
 
     main(String[])
     'behaviors
-    -getFirstName
-    -getLastName
-    -getSalary
-    +readFile()
-    +printFile()
+    +sortEmployees()
+    +output()
 }
 @enduml

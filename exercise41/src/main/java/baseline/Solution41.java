@@ -80,7 +80,6 @@ public class Solution41 {
         }
 
         //converts the string builder to string
-        String out = sb.toString();
-        return out;
+        return sb.toString();
     }
 }

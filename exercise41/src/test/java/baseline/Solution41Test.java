@@ -15,15 +15,18 @@ class Solution41Test {
         Scanner input = new Scanner(new File("data/exercise41_input.txt"));
         ArrayList<String> names = new ArrayList<>();
 
-        String expected = "Total of 7 names\n" +
-                "--------------------\n" +
-                "Johnson, Jim\n" +
-                "Jones, Aaron\n" +
-                "Jones, Chris\n" +
-                "Ling, Mai\n" +
-                "Swift, Geoffrey\n" +
-                "Xiong, Fong\n" +
-                "Zarnecki, Sabrina\n";
+        String expected =
+                """
+                        Total of 7 names
+                        --------------------
+                        Johnson, Jim
+                        Jones, Aaron
+                        Jones, Chris
+                        Ling, Mai
+                        Swift, Geoffrey
+                        Xiong, Fong
+                        Zarnecki, Sabrina
+                        """;
 
         sol41.sortNames(input, names);
         String actual = sol41.outputNames(names);
