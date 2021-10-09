@@ -1,8 +1,6 @@
 package baseline;
 
 import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.util.ClassNamePatternFilterUtils;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,0 +1,14 @@
+@startuml
+class Solution42 {
+    'attributes
+    -names: Arraylist((String[])
+
+    main(String[])
+    'behaviors
+    -getFirstName
+    -getLastName
+    -getSalary
+    +readFile()
+    +printFile()
+}
+@enduml

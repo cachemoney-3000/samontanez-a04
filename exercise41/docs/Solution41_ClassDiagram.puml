@@ -1,25 +1,13 @@
 @startuml
 class Solution41 {
-    names = Arraylist<String>
+    'attributes
+    -names: Arraylist<(String[])>
 
     main(String[])
 
-    sortNames(names)
-    outputNames(names)
-
+    'behaviors
+    +sortNames()
+    +outputNames()
 }
-Solution41 *-- sortNames
-Solution41 *-- outputNames
-
-class sortNames{
-}
-
-class outputNames{
-}
-
-
-
-
-
 
 @enduml

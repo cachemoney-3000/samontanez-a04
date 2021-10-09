@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 public class Solution41 {
     //Array list to store the names from the input file
-    private static final ArrayList<String> names = new ArrayList<>();
+    private final ArrayList<String> names = new ArrayList<>();
 
     public static void main(String[] args) throws FileNotFoundException {
         Solution41 sol41 = new Solution41();
@@ -25,12 +25,12 @@ public class Solution41 {
         Scanner input = new Scanner(new File("data/exercise41_input.txt"));
         //method that will store the names to the arraylist
         //will also sort them in alphabetical order
-        sol41.sortNames(input, names);
+        sol41.sortNames(input, sol41.names);
         //close the input file to not waste memory
         input.close();
 
         //will produce an output file, and written inside is a sorted names
-        String s = sol41.outputNames(names);
+        String s = sol41.outputNames(sol41.names);
         System.out.println(s);
     }
 
@@ -79,7 +79,7 @@ public class Solution41 {
             System.out.println(e);
         }
 
-        //converts the stringbuilder to string
+        //converts the string builder to string
         String out = sb.toString();
         return out;
     }
