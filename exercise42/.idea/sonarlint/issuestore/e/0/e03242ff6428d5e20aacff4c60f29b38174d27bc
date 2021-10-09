@@ -1,0 +1,13 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ïíÑØÿÿÿÿÿ8ıÁå±Æ/
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8Âå±Æ/
+•
+java:S1319
+"sThe type of the "employee" object should be an interface such as "List" rather than the implementation "ArrayList".(ä—ï°üÿÿÿÿ8¡Âå±Æ/
+•
+java:S1319"sThe type of the "employee" object should be an interface such as "List" rather than the implementation "ArrayList".(Á¤³¹üÿÿÿÿ8¡Âå±Æ/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(å«Ÿ«
+i
+java:S2095"GUse try-with-resources or close this "Formatter" in a "finally" clause.(•Åÿûÿÿÿÿ8êÂå±Æ/
+e
+java:S2095%"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(°Õ¥¬8ëÂå±Æ/

@@ -28,5 +28,6 @@ public class Solution43 {
         //create an object for the website generator
         websiteGenerator web = new websiteGenerator();
         //prints out output
+        output();
     }
 }
