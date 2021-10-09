@@ -3,7 +3,6 @@ package baseline;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -13,7 +12,7 @@ class Solution42Test {
 
     @Test
     void sortNames() throws Exception {
-        Solution42 sol42 = new Solution42();
+        employee sol42 = new employee();
         Scanner input = new Scanner(new File("data/exercise42_input.txt"));
         ArrayList<String> employee = new ArrayList<>();
 
@@ -30,13 +29,7 @@ class Solution42Test {
 
         sol42.sortEmployees(input, employee);
         String actual = sol42.output(employee);
-        boolean match = false;
-
-        if(expected.matches(actual)){
-            match = true;
-        }
 
         assertEquals(expected,actual);
-        //assertTrue(match);
     }
 }

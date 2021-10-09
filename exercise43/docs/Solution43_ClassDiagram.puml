@@ -1,0 +1,20 @@
+@startuml
+class Solution42 {
+    main(String[])
+    output()
+}
+
+class websiteGenerator{
+    'attributes
+    +websiteName: (String[])
+    +author: (String[])
+    +path: (String[])
+
+    +makeWebsite: (String[])
+    +makeJS: (String[])
+    +makeCSS: (String[])
+    +makeHTML: (String[])
+}
+
+Solution42 <--o websiteGenerator
+@enduml

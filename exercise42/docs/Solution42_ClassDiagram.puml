@@ -2,10 +2,14 @@
 class Solution42 {
     'attributes
     -employees: Arraylist((String[])
-
     main(String[])
+}
+
+class employee {
     'behaviors
     +sortEmployees()
     +output()
 }
+
+Solution42 *-- employee
 @enduml
