@@ -11,7 +11,7 @@ class Solution41Test {
     @Test
     //check if the expected output will match
     void sortNames() throws Exception{
-        Solution41 sol41 = new Solution41();
+        name sol41 = new name();
         Scanner input = new Scanner(new File("data/exercise41_input.txt"));
         ArrayList<String> names = new ArrayList<>();
 

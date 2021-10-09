@@ -2,12 +2,15 @@
 class Solution41 {
     'attributes
     -names: Arraylist<(String[])>
-
     main(String[])
+}
 
+class name{
     'behaviors
     +sortNames()
     +outputNames()
 }
+
+Solution41 *-- name
 
 @enduml
