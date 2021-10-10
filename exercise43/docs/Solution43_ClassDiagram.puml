@@ -1,7 +1,8 @@
 @startuml
 class Solution42 {
     main(String[])
-    output()
+    -readValueFromUser
+    -display()
 }
 
 class websiteGenerator{

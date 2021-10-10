@@ -13,21 +13,56 @@ package baseline;
 * the <title> tag and the author in a <meta> tag.
  */
 
+import java.util.Scanner;
+
 public class Solution43 {
 
+    private static final Scanner scanner = new Scanner(System.in);
+    private static final websiteGenerator newWebsite = new websiteGenerator();
+
     public static void main(String[] args) {
-        String website;
-        String name;
-        char answer;
+        Solution43 sol43 = new Solution43();
 
-        //ask for the website name
-        //ask for the author
-        //ask if they want a folder for javascript
-        //ask if they want a folder for css
+        //prompts user to enter a website name
+        String siteName = sol43.readValueFromUser("Site name: ");
+        //prompts user to enter the name of the author
+        String author = sol43.readValueFromUser("Author: ");
+        //prompts user if they want to make a javascript folder
+        String jsFolder = sol43.readValueFromUser("Do you want a folder for JavaScript? ");
+        //prompts user if they want to make a CSS folder
+        String cssFolder = sol43.readValueFromUser("Do you want a folder for CSS? ");
 
-        //create an object for the website generator
-        websiteGenerator web = new websiteGenerator();
-        //prints out output
-        output();
+        //make the values accessible for the website generator class
+        newWebsite.siteName = siteName;
+        newWebsite.author = author;
+        newWebsite.path = "./data/website/";
+
+        //displays the final result of the program
+        sol43.display(jsFolder, cssFolder);
     }
+
+    //reads the input from the user
+    private String readValueFromUser(String prompt){
+        System.out.print(prompt);
+        return scanner.nextLine();
+    }
+
+    //display the results
+    private void display(String js, String css){
+        //will print out the path of the new website, including the path
+        System.out.println("Created " + newWebsite.makeWebsite());
+        //will print out the path of the index.html, including the path
+        System.out.println("Created " + newWebsite.makeHTML());
+
+        //if the user wants to create a js folder
+        if(js.equals("y") || js.equals("Y"))
+            //it will print out that the js folder is created, including the path
+            System.out.println("Created " + newWebsite.makeJS());
+
+        //if the user wants to create a css folder
+        if(css.equals("y") || css.equals("Y"))
+            //it will print out that the cs folder is created, including the path
+            System.out.println("Created " + newWebsite.makeCSS());
+    }
+
 }
