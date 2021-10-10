@@ -1,0 +1,24 @@
+@startuml
+class Solution45 {
+    'attributes
+    main(String[])
+    +display()
+}
+
+class fileWriter {
+    writer()
+}
+
+class readFile{
+    read()
+}
+
+class replaceWords{
+    replace()
+}
+
+Solution45 *-- readFile
+Solution45 *-- fileWriter
+readFile -- replaceWords
+fileWriter -- replaceWords
+@enduml
