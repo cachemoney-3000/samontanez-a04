@@ -1,0 +1,27 @@
+@startuml
+class Solution44 {
+    'attributes
+    main(String[])
+    +output()
+}
+
+class parseJson {
+    'attributes
+    +name
+    +price
+    +quantity
+}
+
+class findProduct{
+    'attributes
+    +name
+    +price
+    +quantity
+
+    -parser()
+    +searchProduct()
+}
+
+Solution44 *-- findProduct
+Solution44 *-- parseJson
+@enduml
