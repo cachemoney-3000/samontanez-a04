@@ -5,23 +5,31 @@ class Solution44 {
     +output()
 }
 
-class parseJson {
-    'attributes
-    +name
-    +price
-    +quantity
+class jsonParser {
+    readFile()
 }
 
-class findProduct{
+class Product{
     'attributes
-    +name
-    +price
-    +quantity
+    -name
+    -price
+    -quantity
 
-    -parser()
-    +searchProduct()
+    +Product(name,price,quantity)
+    +getName()
+    +getPrice()
+    +geQuantity()
+    +toString()
 }
 
-Solution44 *-- findProduct
-Solution44 *-- parseJson
+class productInventory{
+    'attributes
+    +product()
+    +findProduct()
+
+}
+
+Solution44 *-- productInventory
+productInventory -- jsonParser
+productInventory -- Product
 @enduml

@@ -10,19 +10,25 @@ package baseline;
  * and looks like this (you will create this file as `exercise44_input.json`):
   */
 
-public class Solution44 {
-    public static void main(String[] args) {
-        //prompt user for the product name
-        //make a while loop
-        //so that it will ask again the customer if the product is not found
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
-        //output method, display the results
+public class Solution44 {
+    public static void main(String[] args) throws Exception {
+        String search;
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        productInventory inventory = new productInventory("data/exercise44_input.json");
+        String notFound = "not found";
+        String output = "not found";
+
+        while(notFound.equals(output)){
+            System.out.print("What is the product name? ");
+            search = bufferedReader.readLine();
+            output = inventory.findProduct(search);
+        }
+
+        System.out.println(output);
+
     }
-    //output method responsible for printing the results
 }
 
-//class for parsing the json file
-
-//class for finding the product inventory
-    //method that will check if the product name matched the product
-    //in the inventory

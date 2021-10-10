@@ -1,20 +1,26 @@
 @startuml
 class Solution42 {
     main(String[])
-    -readValueFromUser
+    'attributes
+    -siteName: String
+    -author: String
+    -jsFolder: String
+    -cssFolder: String
+
+    -readValueFromUser()
     -display()
 }
 
 class websiteGenerator{
     'attributes
-    +websiteName: (String[])
-    +author: (String[])
-    +path: (String[])
+    +websiteName: String
+    +author: String
+    +path: String
 
-    +makeWebsite: (String[])
-    +makeJS: (String[])
-    +makeCSS: (String[])
-    +makeHTML: (String[])
+    +makeWebsite: String
+    +makeJS: String
+    +makeCSS: String
+    +makeHTML: String
 }
 
 Solution42 <--o websiteGenerator

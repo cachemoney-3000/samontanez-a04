@@ -5,26 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c581fbcd-59de-450b-915c-b278aee42bca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/exercise44_input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Solution44_ClassDiagram.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/1/6/1687d92149bf56ed38caa0f36cef5a5d4caa3a92" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/c/a/ca13766ee0102fa7a7111be3b63f6fca17f6d388" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/c/f/cf2d704d5d2f3d0af870581692ca07d745f0c0d9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/d/d/dd03bfe4a163577927ed9756928648a70c892976" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/e/0/e03242ff6428d5e20aacff4c60f29b38174d27bc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/e/2/e22cc9e5dba1ed998b04225e061f5da54644e84a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/baseline/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/baseline/jsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/baseline/productInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseline/Solution44Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/0/6/06f70f4d2a32cba4f1ba595a62bc39c9793316c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/1/0/10a812f00420fee9b181b336cd9903f33cd37702" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/b/4/b4347542199e6f8f4a0c2a06abf7605a025d7459" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/f/f/ffe32549da85cbb99a78b340561cc4c6999961c2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise43/docs/Solution43_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise43/docs/Solution43_ClassDiagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution44_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution44_ClassDiagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="UML Sequence" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -58,13 +55,23 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/gson-2.8.8.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="baseline" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution44">
     <configuration name="Solution44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baseline.Solution44" />
       <module name="exercise44.main" />
@@ -78,8 +85,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution44Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;baseline.Solution44Test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Solution44Test.testDontExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;baseline.Solution44Test.testDontExists&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Solution44Test.test_that_product_information_is_returned_for_a_valid_product" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;baseline.Solution44Test.test_that_product_information_is_returned_for_a_valid_product&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Solution44Test" />
+        <item itemvalue="Gradle.Solution44Test.testDontExists" />
+        <item itemvalue="Gradle.Solution44Test.test_that_product_information_is_returned_for_a_valid_product" />
         <item itemvalue="Application.Solution44" />
       </list>
     </recent_temporary>
@@ -94,5 +167,16 @@
       <updated>1633877883309</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
