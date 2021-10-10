@@ -16,17 +16,24 @@ import java.io.InputStreamReader;
 public class Solution44 {
     public static void main(String[] args) throws Exception {
         String search;
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        productInventory inventory = new productInventory("data/exercise44_input.json");
         String notFound = "not found";
         String output = "not found";
 
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        //inventory object, responsible for matching the inventory listed on json file
+        productInventory inventory = new productInventory("data/exercise44_input.json");
+
+        //keep looping until a product was found
         while(notFound.equals(output)){
+            //prompts the user for the product name
             System.out.print("What is the product name? ");
+            //stores the product to 'search'
             search = bufferedReader.readLine();
+            //calls the method findProduct inside the inventory object by passing 'search'
             output = inventory.findProduct(search);
         }
 
+        //will display the final output
         System.out.println(output);
 
     }

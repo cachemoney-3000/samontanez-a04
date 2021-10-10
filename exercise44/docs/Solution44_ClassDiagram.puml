@@ -19,7 +19,6 @@ class Product{
     +getName()
     +getPrice()
     +geQuantity()
-    +toString()
 }
 
 class productInventory{
@@ -32,4 +31,5 @@ class productInventory{
 Solution44 *-- productInventory
 productInventory -- jsonParser
 productInventory -- Product
+jsonParser -- Product
 @enduml

@@ -10,7 +10,7 @@ class Solution44Test {
         productInventory pi = new productInventory("data/exercise44_input.json");
         String expectedResults = "Name: Thing\n" +
                 "Price: $15.00\n" +
-                "Quantity On Hand: 5\n";
+                "Quantity: 5\n";
 
         String searchResults = pi.findProduct("Thing");
 
