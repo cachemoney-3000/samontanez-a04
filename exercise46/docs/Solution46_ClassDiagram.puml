@@ -1,0 +1,22 @@
+@startuml
+class Solution46 {
+    'attributes
+    list: ArrayList<String>
+    main(String[])
+    display()
+}
+
+class countInstance {
+    counter()
+}
+
+class readFile{
+    'attributes
+    list: ArrayList<String>
+    read()
+}
+
+
+Solution46 *-- readFile
+Solution46 *-- countInstance
+@enduml

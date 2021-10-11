@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c581fbcd-59de-450b-915c-b278aee42bca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise45/src/test/java/baseline/Solution45Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/data/exercise45_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/data/exercise45_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/docs/Solution45_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/docs/Solution45_ClassDiagram.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Solution45.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Solution45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" afterDir="false" />
-    </list>
+    <list default="true" id="c581fbcd-59de-450b-915c-b278aee42bca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

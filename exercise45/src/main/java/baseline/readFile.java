@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class readFile {
     private final Scanner scanner;
 
-    //method that will be use for scanning the file
+    //constructor that will be use for scanning the file
     public readFile(String pathname) throws FileNotFoundException {
         //file reader will take the pathname of the text file
         File fileReader = new File(pathname);
