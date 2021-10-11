@@ -1,19 +1,19 @@
 @startuml
 class Solution46 {
-    'attributes
-    list: ArrayList<String>
-    main(String[])
-    display()
+    -list: HashMap<String, Integer>
+    +main(String[])
+    +display()
 }
 
 class countInstance {
-    counter()
+    -list: HashMap<String, Integer>
+    +counter()
+    -sort()
 }
 
 class readFile{
-    'attributes
-    list: ArrayList<String>
-    read()
+    -list: HashMap<String, Integer>
+    +read()
 }
 
 

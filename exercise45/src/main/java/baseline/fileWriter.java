@@ -21,7 +21,6 @@ public class fileWriter {
         StringBuilder sb = new StringBuilder();
         //will continue looping until the list is null
         for (String temp : list) {
-
             //will replace the word "utilize" with "use"
             temp = temp.replace(toReplace, replacement);
             //string builder for displaying the output

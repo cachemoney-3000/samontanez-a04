@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2e4d4-818b-4d0a-b431-90f0ff843a31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/exercise46_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Solution46_ClassDiagram.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baseline/countInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baseline/readFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise44/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise44/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise44/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/test/java/baseline/Solution45Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/test/java/baseline/Solution45Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseline/Solution46Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution46_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution46_ClassDiagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Solution46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/countInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/countInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/readFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/readFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +28,7 @@
       <list>
         <option value="UML Sequence" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,6 +47,58 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="baseline" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Solution46Test.test">
+    <configuration name="Solution46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baseline.Solution46" />
+      <module name="exercise46.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baseline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution46Test.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;baseline.Solution46Test.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Solution46Test.test" />
+        <item itemvalue="Application.Solution46" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
