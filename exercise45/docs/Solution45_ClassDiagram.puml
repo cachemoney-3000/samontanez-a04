@@ -1,8 +1,8 @@
 @startuml
 class Solution45 {
     'attributes
+    list: ArrayList<String>
     main(String[])
-    +display()
 }
 
 class fileWriter {
@@ -10,15 +10,12 @@ class fileWriter {
 }
 
 class readFile{
+    'attributes
+    list: ArrayList<String>
     read()
 }
 
-class replaceWords{
-    replace()
-}
 
 Solution45 *-- readFile
 Solution45 *-- fileWriter
-readFile -- replaceWords
-fileWriter -- replaceWords
 @enduml

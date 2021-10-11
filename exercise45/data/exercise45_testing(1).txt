@@ -1,0 +1,3 @@
+One should never utilize the word "utilize" in writing. Use "use" instead.
+For example, "He uses an IDE to write her Java programs" instead of "He
+utilizes an IDE to write her Java programs".

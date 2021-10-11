@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c581fbcd-59de-450b-915c-b278aee42bca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/0/7/07041e75888b1d54309e56dbe1d350c5a0f14b0d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/2/3/23dda7932a7257896ad81c0fdf8406363173685a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/9/c/9c1c66eafbab2c854e4054a5786a24de22f1f33f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/a/7/a7b7fd7319bfb2e7377a9a4572905ac0198ea746" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise45/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise45/src/test/java/baseline/Solution45Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution44_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution44_ClassDiagram.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/jsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/jsonParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/productInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/productInventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseline/Solution44Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseline/Solution44Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/data/exercise45_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/data/exercise45_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/docs/Solution45_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/docs/Solution45_ClassDiagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Solution45.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Solution45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,5 +185,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
