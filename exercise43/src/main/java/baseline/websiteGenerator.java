@@ -10,6 +10,7 @@ public class websiteGenerator {
     String author;
     String path;
 
+
     //will make a website directory
     public String makeWebsite() {
         //this will help to display the directory of the website
@@ -70,8 +71,8 @@ public class websiteGenerator {
             output.close();
             //will return the directory of the index.html
             return directory;
-        } catch(Exception ex) {
-
+        }
+        catch(Exception ex) {
             return "Program failed, try again";
         }
     }

@@ -1,27 +1,74 @@
 @startuml
-class Solution42 {
+class Solution43 {
     main(String[])
     'attributes
     -siteName: String
     -author: String
     -jsFolder: String
     -cssFolder: String
+    -prompt: String
 
-    -readValueFromUser()
-    -display()
+    'Solution43 sol43 = new Solution43();
+    'websiteGenerator newWebsite = new websiteGenerator();
+
+    'prompt user for a site name
+    'sol43.readValueFromUser(prompt) = siteName
+
+    'prompt user for author
+    'sol43.readValueFromUser(prompt) = author
+
+    'prompt user if they want js folder
+    'sol43.readValueFromUser(prompt) = jsFolder
+
+    'prompt user if they want css folder
+    'sol43.readValueFromUser(prompt) = cssFolder
+
+    'newWebsite.makeWebsite = siteName
+    'newWebsite.author = author
+    'newWebsite.path = desired path to store folders
+
+    'sol43.display(jsFolder, cssFolder)
+
+    -readValueFromUser(String prompt)
+    'prints the prompt
+    'return the scanner input
+
+    -display(String jsFolder, String cssFolder)
+    'print the website directory
+    'print the HTML directory
+    'if jsFolder = 'y'
+        'print the jsFolder directory
+    'if cssFolder = 'y'
+        'print the cssFolder directory
 }
 
 class websiteGenerator{
     'attributes
-    +websiteName: String
+    +siteName: String
     +author: String
     +path: String
 
-    +makeWebsite: String
-    +makeJS: String
-    +makeCSS: String
-    +makeHTML: String
+    +makeWebsite()
+    'String directory = path + siteName
+    'create a directory with the html file inside
+    'returns the directory
+
+    +makeJS()
+    'String directory = path + siteName + "/js"
+    'create a directory with the html file inside
+    'returns the directory
+
+    +makeCSS()
+    'String directory = path + siteName + '/css'
+    'create a directory with the html file inside
+    'returns the directory
+
+    +makeHTML()
+    'String directory = path + siteName
+    'String HTML = some code to put for HTML
+    'create a directory with the html file inside
+    'returns the directory or it returns an exception error message
 }
 
-Solution42 <--o websiteGenerator
+Solution43 <--o websiteGenerator
 @enduml
