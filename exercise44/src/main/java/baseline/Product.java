@@ -1,9 +1,9 @@
 package baseline;
 
 public class Product {
-    private String name;
-    private double price;
-    private long quantity;
+    private final String name;
+    private final double price;
+    private final long quantity;
 
     //constructor that will store the data from jsonParser
     public Product(String name, double price, long quantity){

@@ -1,12 +1,13 @@
 package baseline;
 
-import java.util.HashMap;
+import java.io.IOException;
+import java.util.Map;
 
 public class productInventory {
-    private HashMap<String, Product> products;
+    private final Map<String, Product> products;
 
     //this method will be called from the main method
-    public productInventory(String filename) throws Exception{
+    public productInventory(String filename) throws IOException {
         //will open the file
         products = jsonParser.readFile(filename);
     }

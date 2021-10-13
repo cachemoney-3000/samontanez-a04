@@ -2,11 +2,21 @@
 class Solution44 {
     'attributes
     main(String[])
-    +output()
+        'BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        'productInventory inventory = new productInventory("data/exercise44_input.json");
+
+        'while loop that keeps looping if the product is not found
+            'prompt user for a product
+            'call the inventory.findProduct(search)
+
+        'print out the final output
 }
 
 class jsonParser {
     readFile()
+        'parser object
+        'store the product to an array
+        'while loop that keeps iterating until no input is left
 }
 
 class Product{
@@ -15,16 +25,21 @@ class Product{
     -price
     -quantity
 
+    'constructor
     +Product(name,price,quantity)
+
+     'getters
     +getName()
     +getPrice()
     +geQuantity()
 }
 
 class productInventory{
-    'attributes
+    'attribute
     +product()
+
     +findProduct()
+    'return a string wether a product is found or not
 
 }
 

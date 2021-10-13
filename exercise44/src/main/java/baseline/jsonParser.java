@@ -8,12 +8,13 @@ import com.google.gson.JsonParser;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Iterator;
 
 //responsible for reading the json file
 public class jsonParser {
-    //this class will return a HashMap value that it will store to the Product method
-    public static HashMap<String, Product> readFile(String filename) throws IOException {
+    //this class will return a Map value that it will store to the Product method
+    public static Map<String, Product> readFile(String filename) throws IOException {
         //opening and parsing the file
         Object parser = JsonParser.parseReader(new FileReader(filename));
         JsonObject jsonObject = (JsonObject) parser;
@@ -23,7 +24,7 @@ public class jsonParser {
         //iterates through next element in the file
         Iterator<JsonElement> iterator = jsonArray.iterator();
         //stores the products and its corresponding info
-        HashMap<String, Product> productList = new HashMap<>();
+        Map<String, Product> productList = new HashMap<>();
 
         //keep iterating until there is no line
         while(iterator.hasNext()){

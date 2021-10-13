@@ -28,7 +28,7 @@ class employee {
             'also store the printed data to the string builder
         'catch all the exceptions
 
-        'return the string builder 
+        'return the string builder
 }
 
 Solution42 *-- employee
