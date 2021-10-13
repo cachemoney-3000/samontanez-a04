@@ -1,8 +1,6 @@
 package baseline;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
 
 public class websiteGenerator {
     //attributes
@@ -16,7 +14,7 @@ public class websiteGenerator {
         //this will help to display the directory of the website
         String directory = path + siteName;
         File newFolder = new File(directory);
-        //will make a new folder directory
+        //will make a new folder directory, useful for testing
         newFolder.mkdirs();
         return directory;
     }
@@ -26,7 +24,7 @@ public class websiteGenerator {
         //this will help display the directory of the js folder
         String directory = path + siteName + "/js";
         File newFolder = new File(directory);
-        //make a new folder for js
+        //make a new folder for js, useful for testing
         newFolder.mkdirs();
         return directory;
     }
@@ -36,44 +34,40 @@ public class websiteGenerator {
         //this will help display directory of the css folder
         String directory = path + siteName + "/css";
         File newFolder = new File(directory);
-        //make a new folder for css
+        //make a new folder for css, useful for testing
         newFolder.mkdirs();
         return directory;
     }
 
     //will produce the index.html
-    public String makeHTML() {
+    public String makeHTML() throws IOException {
         //will help display the directory of the index.html file
         String directory = path + siteName + "/index.html";
         //contents inside the html file
-        String html =
-                "<!doctype html>\n" +
-                        "\n" +
-                        "<html lang=\"en\">\n" +
-                        "<head>\n" +
-                        "  <meta charset=\"utf-8\">\n" +
-                        "  <title>" + siteName + "</title>\n" +
-                        "  <meta name=\"" + author + "\">\n" +
-                        "</head>\n" +
-                        "<body>\n" +
-                        "   <p>This is an auto-generated website!</p>\n" +
-                        "   <p><b>HELLO WORLD</b></p>\n" +
-                        "</body>\n" +
-                        "</html>";
-        File file = new File(directory);
 
         //try the following block of code, catch all the error
-        try {
-            BufferedWriter output = new BufferedWriter(new FileWriter(file));
+        try (FileWriter output = new FileWriter(directory)) {
+            String html =
+                    "<!doctype html>\n" +
+                            "\n" +
+                            "<html lang=\"en\">\n" +
+                            "<head>\n" +
+                            "  <meta charset=\"utf-8\">\n" +
+                            "  <title>" + siteName + "</title>\n" +
+                            "  <meta name=\"" + author + "\">\n" +
+                            "</head>\n" +
+                            "<body>\n" +
+                            "   <p>This is an auto-generated website!</p>\n" +
+                            "   <p><b>HELLO WORLD</b></p>\n" +
+                            "</body>\n" +
+                            "</html>";
             //will write the html template string into the html file
             output.write(html);
-            //will close the html file
-            output.close();
             //will return the directory of the index.html
             return directory;
-        }
-        catch(Exception ex) {
+        } catch (Exception ex) {
             return "Program failed, try again";
         }
+
     }
 }

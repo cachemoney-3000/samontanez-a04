@@ -31,7 +31,7 @@ public class name {
             FileWriter output = new FileWriter("data/exercise41_output.txt");
 
             //will print the following header inside the output file
-            sb.append("Total of " + names.size() + " names\n");
+            sb.append("Total of ").append(names.size()).append(" names\n");
             output.write("Total of " + names.size() + " names\n");
             sb.append("--------------------\n");
             output.write("--------------------\n");

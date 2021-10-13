@@ -31,7 +31,7 @@ public class Solution41 {
         input.close();
 
         //will produce an output file, and written inside is a sorted names
-        String s = name.outputNames(sol41.names);
-        System.out.println(s);
+        String display = name.outputNames(sol41.names);
+        System.out.println(display);
     }
 }

@@ -67,7 +67,7 @@ class websiteGenerator{
     'String directory = path + siteName
     'String HTML = some code to put for HTML
     'create a directory with the html file inside
-    'returns the directory or it returns an exception error message
+    'returns the directory, or it returns an exception error message
 }
 
 Solution43 <--o websiteGenerator

@@ -2,13 +2,24 @@
 class Solution41 {
     'attributes
     -names: Arraylist<(String[])>
+
     main(String[])
+        display: String
+        'name name = new name();
+        'Solution41 sol41 = new Solution41();
+        'Scanner to scan the file, pass the directory of the text file
+
+        'name.sortNames(input, sol41.names)
+        'close the scanner
+
+        'display = name.outputNames
+        'prints the display string
 }
 
 class name{
     'behaviors
-    +sortNames()
-    +outputNames()
+    +sortNames(Scanner input, ArrayList<String> names)
+    +outputNames(ArrayList<String> names)
 }
 
 Solution41 *-- name

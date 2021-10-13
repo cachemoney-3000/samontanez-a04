@@ -2,11 +2,12 @@ package baseline;
 
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.*;
 
 class Solution43Test {
     @Test
-    void makeHTMLTest(){
+    void makeHTMLTest() throws IOException {
         //Use the function and save the return value.
         websiteGenerator wg = new websiteGenerator();
 
@@ -21,7 +22,7 @@ class Solution43Test {
     }
 
     @Test
-    void makeCSSFolderTest(){
+    void makeCSSFolderTest() throws IOException {
         //checks if it will generate a css folder assuming the user put "y" on the prompt
         websiteGenerator wg = new websiteGenerator();
         wg.path = "./data/website/";
@@ -35,7 +36,7 @@ class Solution43Test {
     }
 
     @Test
-    void makeJsFolderTest(){
+    void makeJsFolderTest() throws IOException {
         //checks if it will generate a css folder assuming the user put "y" on the prompt
         websiteGenerator wg = new websiteGenerator();
         wg.path = "./data/website/";

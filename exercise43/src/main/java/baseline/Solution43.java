@@ -13,6 +13,7 @@ package baseline;
 * the <title> tag and the author in a <meta> tag.
  */
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Solution43 {
@@ -20,7 +21,7 @@ public class Solution43 {
     private static final Scanner scanner = new Scanner(System.in);
     private static final websiteGenerator newWebsite = new websiteGenerator();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Solution43 sol43 = new Solution43();
 
         //prompts user to enter a website name
@@ -48,21 +49,22 @@ public class Solution43 {
     }
 
     //display the results
-    private void display(String js, String css){
+    private void display(String js, String css) throws IOException {
+        String created = "Created ";
         //will print out the path of the new website, including the path
-        System.out.println("Created " + newWebsite.makeWebsite());
+        System.out.println(created + newWebsite.makeWebsite());
         //will print out the path of the index.html, including the path
-        System.out.println("Created " + newWebsite.makeHTML());
+        System.out.println(created + newWebsite.makeHTML());
 
         //if the user wants to create a js folder
         if(js.equals("y") || js.equals("Y"))
             //it will print out that the js folder is created, including the path
-            System.out.println("Created " + newWebsite.makeJS());
+            System.out.println(created + newWebsite.makeJS());
 
         //if the user wants to create a css folder
         if(css.equals("y") || css.equals("Y"))
             //it will print out that the cs folder is created, including the path
-            System.out.println("Created " + newWebsite.makeCSS());
+            System.out.println(created + newWebsite.makeCSS());
     }
 
 }
