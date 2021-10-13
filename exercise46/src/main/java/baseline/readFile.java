@@ -2,7 +2,7 @@ package baseline;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class readFile {
@@ -15,7 +15,7 @@ public class readFile {
     }
 
     //a method that will read the contents of the input file
-    public HashMap<String, Integer> read(HashMap<String, Integer> list) {
+    public Map<String, Integer> read(Map<String, Integer> list) {
         //use try-catch method to catch all the exceptions
         try {
             //while loop that will run until there are no lines
@@ -43,7 +43,7 @@ public class readFile {
             }
         }catch (Exception e){
             //will print out an exception if it catches it
-            System.out.println(e);
+            e.printStackTrace();
         }
         //close the scanner
         scanner.close();

@@ -3,10 +3,10 @@ package baseline;
 import java.util.*;
 
 public class countInstance {
-    private HashMap<String,Integer> list;
+    private final Map<String,Integer> list;
 
     //constructor that will store the list
-    public  countInstance(HashMap<String, Integer> list){
+    public  countInstance(Map<String, Integer> list){
         this.list = list;
     }
 

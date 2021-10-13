@@ -3,7 +3,7 @@ class Solution45 {
     'attribute
     -list: List<String>
 
-    main(String[])
+    +main(String[])
         'prompt for the output file
         'call the readFile object
         'store the scanned lines into the list

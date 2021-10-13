@@ -1,7 +1,7 @@
 @startuml
 class Solution44 {
     'attributes
-    main(String[])
+    +main(String[])
         'BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         'productInventory inventory = new productInventory("data/exercise44_input.json");
 

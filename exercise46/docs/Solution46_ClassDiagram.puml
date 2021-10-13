@@ -1,19 +1,52 @@
 @startuml
 class Solution46 {
-    -list: HashMap<String, Integer>
+    -list: Map<String, Integer>
     +main(String[])
-    +display()
+        'readFile object
+        'store the lines scanned into the list
+
+        'call the countInstance object
+        'store the words into a string array
+
+        'prints out the final output by calling the display method
+
+    +display(String[] tempWord, Map<String, Integer> list)
+        'string builder object
+        'iterate through the list
+            'prints out the word
+            'as well as prints out how many stars(instance) they have
+            'store them into the string builder
+        'return the string builder
+
 }
 
 class countInstance {
-    -list: HashMap<String, Integer>
+    -list: Map<String, Integer>
+    'constructor
+    +countInstance(Map<String, Integer> list)
+
     +counter()
+        'loops through the map
+        'count how many instances per word
     -sort()
+        'sort the list by putting the word with higher instances and the top
+        'lowest instances at the bottom
 }
 
 class readFile{
-    -list: HashMap<String, Integer>
-    +read()
+    'constructor
+    +readFile(String pathname)
+    -list: Map<String, Integer>
+    +read(Map<String, Integer> list)
+        'try:
+            'will keep looping through the file
+            'scan all the words in the file
+            'put them into the list
+            'count how many instances each word have and store it into the list
+        'catch all the exception and prints them
+        'close the scanner
+        'returns the list Map
+
 }
 
 

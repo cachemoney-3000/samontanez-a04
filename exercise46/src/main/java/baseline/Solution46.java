@@ -6,6 +6,7 @@ package baseline;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;
+import java.util.Map;
 
 /*
 * Create a program that reads in a file named `exercise46_input.txt`
@@ -16,7 +17,7 @@ import java.util.HashMap;
 
 public class Solution46 {
     public static void main(String[] args) throws FileNotFoundException {
-        HashMap<String, Integer> list = new HashMap<>();
+        Map<String, Integer> list = new HashMap<>();
 
         //class that will be responsible for reading the text file
         //it will also scan the lines and store it into an array list of strings
@@ -38,7 +39,7 @@ public class Solution46 {
     }
 
     //method for displaying the histogram
-    public static String display(String[] tempWord, HashMap<String, Integer> list){
+    public static String display(String[] tempWord, Map<String, Integer> list){
         StringBuilder sb = new StringBuilder();
         //iterate through the hashmap
         for(int i = 0; i < list.size(); i++) {
