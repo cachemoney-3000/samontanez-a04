@@ -24,28 +24,28 @@ public class name {
 
     //method that will print and make a file with a sorted names
     public String outputNames(List<String> names) {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder display = new StringBuilder();
 
         //try the following block of commands until it throws an exception
         try (FileWriter output = new FileWriter("data/exercise41_output.txt")){
             //make an output file
             //will print the following header inside the output file
-            sb.append("Total of ").append(names.size()).append(" names\n");
+            display.append("Total of ").append(names.size()).append(" names\n");
             output.write("Total of " + names.size() + " names\n");
-            sb.append("--------------------\n");
+            display.append("--------------------\n");
             output.write("--------------------\n");
 
             //loop through the names inside the arraylist 'names'
             for (String c : names) {
                 //prints the sorted names into the output file
-                sb.append(c).append("\n");
+                display.append(c).append("\n");
                 output.write(c + "\n");
             }
         } catch (Exception e) {
             //if the program throws an error, print the error to let user know
-            e.printStackTrace();
+
         }
         //converts the string builder to string
-        return sb.toString();
+        return display.toString();
     }
 }

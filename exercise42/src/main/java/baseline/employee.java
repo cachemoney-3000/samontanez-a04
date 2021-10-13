@@ -1,13 +1,13 @@
 package baseline;
 
 import java.io.FileWriter;
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Formatter;
 import java.util.Scanner;
 
 public class employee {
 
-    public void sortEmployees(Scanner input, ArrayList<String> employee){
+    public void sortEmployees(Scanner input, List<String> employee){
         //if the input is null, print that the file is empty
         if(input == null){
             System.out.println("File is empty");
@@ -23,23 +23,19 @@ public class employee {
         employee.sort(String.CASE_INSENSITIVE_ORDER);
     }
 
-    public String output(ArrayList<String> employee){
+    public String output(List<String> employee){
         //string builder that will collect the output in one string
-        StringBuilder sb = new StringBuilder();
-        //formatter that will allow tab formatting
-        Formatter format = new Formatter(sb);
-        //standard format for this file
-        String formatStr = "%-17s%-17s%-17s\n";
+        StringBuilder display = new StringBuilder();
 
         //if the program don't give us an exception error, do the following:
-        try{
-            //create an output file
-            FileWriter output = new FileWriter("data/exercise42_output.txt");
+        try (Formatter format = new Formatter(display);
+             FileWriter output = new FileWriter("data/exercise42_output.txt")) {
+            String formatStr = "%-17s%-17s%-17s\n";
 
             //prints out the header with proper format
-            format.format(String.format(formatStr,"Last", "First", "Salary"));
-            output.write(String.format(formatStr,"Last", "First", "Salary"));
-            sb.append("----------------------------------------\n");
+            format.format(String.format(formatStr, "Last", "First", "Salary"));
+            output.write(String.format(formatStr, "Last", "First", "Salary"));
+            display.append("----------------------------------------\n");
             output.write("----------------------------------------\n");
 
             //prints out the employee's first name, last name and salary with proper formatting
@@ -51,14 +47,12 @@ public class employee {
                 output.write(String.format(formatStr, temp[0], temp[1], temp[2]));
             }
             //close the output file
-            output.close();
-
         } catch (Exception e) {
             //prints out an error message if it catches an exception
-            System.out.println(e);
+            e.printStackTrace();
         }
 
         //returns a string to the main method
-        return sb.toString();
+        return display.toString();
     }
 }

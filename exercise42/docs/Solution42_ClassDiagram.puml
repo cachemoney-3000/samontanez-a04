@@ -3,12 +3,32 @@ class Solution42 {
     'attributes
     -employees: Arraylist((String[])
     main(String[])
+        'Solution42 sol42 = new Solution42();
+        'employee name = new employee();
+
+        'scanner to scan the file
+        'store the scanned names to the list:
+        'name.sortEmployees(input, sol42.employee)
+
+        'display the output
+        'name.output(sol42.employee)
 }
 
 class employee {
     'behaviors
     +sortEmployees()
+        'if the input is null, print "file is empty"
+        'else:
+            'scan all the lines from the file
+
     +output()
+        'String builder object
+        'try:
+            'printing the header and names to the file
+            'also store the printed data to the string builder
+        'catch all the exceptions
+
+        'return the string builder 
 }
 
 Solution42 *-- employee
