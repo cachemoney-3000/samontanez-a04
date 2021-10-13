@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c581fbcd-59de-450b-915c-b278aee42bca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/0/3/031f9eb7d436ed91e53ec831db0383d860f53e66" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/1/5/156ef6948398967a798507d9fa1b23827f1a7c9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/1/5/15f63f81faba187d3e8227a75c623856915ea42c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/7/8/7885da1447b678f57f33933798105c38322ac9d0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/7/e/7e18b8f624be772d4d2319e73601cb0e022171c9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/e/2/e230d39701103b1ffd2b377f320c84c17c443d97" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/docs/Solution45_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/docs/Solution45_ClassDiagram.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Solution45.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Solution45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/src/test/java/baseline/Solution45Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/test/java/baseline/Solution45Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="c581fbcd-59de-450b-915c-b278aee42bca" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
