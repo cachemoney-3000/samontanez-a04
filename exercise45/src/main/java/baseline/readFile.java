@@ -2,7 +2,7 @@ package baseline;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class readFile {
@@ -16,7 +16,7 @@ public class readFile {
         scanner = new Scanner(fileReader);
     }
 
-    public ArrayList<String> read(ArrayList<String> list){
+    public List<String> read(List<String> list){
         //will keep looping until it will give us an exception error
         try{
             //will keep scanning the text file until there are no more lines left
@@ -28,7 +28,7 @@ public class readFile {
             }
         }catch (Exception e){
             //will print out an exception message
-            System.out.println(e);
+            e.printStackTrace();
         }
         //close the scanner
         scanner.close();

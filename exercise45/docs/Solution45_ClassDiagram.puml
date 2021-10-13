@@ -1,18 +1,48 @@
 @startuml
 class Solution45 {
-    'attributes
-    list: ArrayList<String>
+    'attribute
+    list: List<String>
+
     main(String[])
+        'prompt for the output file
+        'call the readFile object
+        'store the scanned lines into the list
+
+        'call the fileWriter object
+        'prints out the output into a file
+        'display the output that was written into the file
 }
 
 class fileWriter {
-    writer()
+    'call the fileWriter object
+    'attributes:
+    -list: list<String>
+    'constructor
+    -fileWriter(String name, List<String> list)
+
+    writer(String toReplace, String replacement)
+        'StringBuilder object
+        '(for-loop) iterates through the list
+            'replace the words
+            'store the output into a string builder
+            'prints out the output into a file
+
+        'close the fileWriter method
+        'return the string builder
 }
 
 class readFile{
-    'attributes
-    list: ArrayList<String>
-    read()
+    'scanner object
+    'constructor
+    +readFile(String pathname)
+
+    read(List<String> list)
+    'try scanning the lines
+        'store the scanned lines into the list
+    'catch all the exception and prints it
+    'close the scanner
+
+    'return the array list
 }
 
 

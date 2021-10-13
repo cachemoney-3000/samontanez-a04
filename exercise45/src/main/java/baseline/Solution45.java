@@ -6,6 +6,7 @@ package baseline;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /*
@@ -18,7 +19,7 @@ public class Solution45 {
     public static void main(String[] args) throws IOException {
         //scanner to scan the user input
         Scanner scanner = new Scanner(System.in);
-        ArrayList<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
 
         //prompt user for the name of the output file also the file type
         System.out.print("Enter the output file: ");

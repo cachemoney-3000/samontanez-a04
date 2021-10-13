@@ -2,14 +2,14 @@ package baseline;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
 public class fileWriter {
     private final FileWriter writer;
-    private final ArrayList<String> list;
+    private final List<String> list;
 
     //constructor that will help to determine where to store the output file
-    public fileWriter(String name, ArrayList<String> list) throws IOException {
+    public fileWriter(String name, List<String> list) throws IOException {
         //will create a new file
         //passing the parameters of the pathname where to store the new file
         writer = new FileWriter("data/" + name);
