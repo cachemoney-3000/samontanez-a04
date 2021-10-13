@@ -1,7 +1,7 @@
 @startuml
 class Solution41 {
     'attributes
-    -names: Arraylist<(String[])>
+    -names: List<(String[])>
 
     main(String[])
         display: String
@@ -18,8 +18,25 @@ class Solution41 {
 
 class name{
     'behaviors
-    +sortNames(Scanner input, ArrayList<String> names)
-    +outputNames(ArrayList<String> names)
+    +sortNames(Scanner input, List<String> names)
+        'if input is null
+            'print 'file is empty'
+        'else
+            'scan all the lines
+            'sort the string list
+
+    +outputNames(List<String> names)
+        'StringBuilder sb = new StringBuilder();
+        'try(FileWriter object){
+            'append the header
+            'print the header to output file
+
+            'for loop(iterate through the names)
+                'append all names
+                'print the names to the output file
+
+        'catch the exception
+        'return the string builder
 }
 
 Solution41 *-- name

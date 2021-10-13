@@ -10,6 +10,7 @@ class Solution41Test {
 
     @Test
     //check if the expected output will match
+    //unsorted -> sorted names
     void sortNames() throws Exception{
         name sol41 = new name();
         Scanner input = new Scanner(new File("data/exercise41_input.txt"));
