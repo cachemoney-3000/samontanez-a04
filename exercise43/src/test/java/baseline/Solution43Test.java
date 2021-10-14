@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class Solution43Test {
     @Test
-    void makeHTMLTest() throws IOException {
+    void makeHTMLTest() {
         //Use the function and save the return value.
-        websiteGenerator wg = new websiteGenerator();
+        WebsiteGenerator wg = new WebsiteGenerator();
 
         wg.path = "./data/website/";
         wg.siteName = "testwebsite.com";
@@ -24,7 +24,7 @@ class Solution43Test {
     @Test
     void makeCSSFolderTest() throws IOException {
         //checks if it will generate a css folder assuming the user put "y" on the prompt
-        websiteGenerator wg = new websiteGenerator();
+        WebsiteGenerator wg = new WebsiteGenerator();
         wg.path = "./data/website/";
         wg.siteName = "testwebsite.com";
         wg.author = "Joshua Samontanez";
@@ -38,7 +38,7 @@ class Solution43Test {
     @Test
     void makeJsFolderTest() throws IOException {
         //checks if it will generate a css folder assuming the user put "y" on the prompt
-        websiteGenerator wg = new websiteGenerator();
+        WebsiteGenerator wg = new WebsiteGenerator();
         wg.path = "./data/website/";
         wg.siteName = "testwebsite.com";
         wg.author = "Joshua Samontanez";

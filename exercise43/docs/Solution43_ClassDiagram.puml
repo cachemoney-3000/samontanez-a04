@@ -42,7 +42,7 @@ class Solution43 {
         'print the cssFolder directory
 }
 
-class websiteGenerator{
+class WebsiteGenerator{
     'attributes
     +siteName: String
     +author: String
@@ -55,12 +55,12 @@ class websiteGenerator{
 
     +makeJS()
     'String directory = path + siteName + "/js"
-    'create a directory with the html file inside
+    'create a js folder
     'returns the directory
 
     +makeCSS()
     'String directory = path + siteName + '/css'
-    'create a directory with the html file inside
+    'create a css folder
     'returns the directory
 
     +makeHTML()

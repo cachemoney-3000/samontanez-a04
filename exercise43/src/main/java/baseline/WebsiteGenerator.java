@@ -1,8 +1,10 @@
 package baseline;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
-public class websiteGenerator {
+public class WebsiteGenerator {
     //attributes
     String siteName;
     String author;
@@ -10,37 +12,37 @@ public class websiteGenerator {
 
 
     //will make a website directory
-    public String makeWebsite() {
+    public String makeWebsite() throws IOException {
         //this will help to display the directory of the website
         String directory = path + siteName;
-        File newFolder = new File(directory);
-        //will make a new folder directory, useful for testing
-        newFolder.mkdirs();
+        //will make a new directory if it still doesn't exist
+        Files.createDirectories(Paths.get(directory));
+
         return directory;
     }
 
     //will make a JS folder, if the user wanted to
-    public String makeJS() {
+    public String makeJS() throws IOException {
         //this will help display the directory of the js folder
         String directory = path + siteName + "/js";
-        File newFolder = new File(directory);
-        //make a new folder for js, useful for testing
-        newFolder.mkdirs();
+        //will make a new directory if it still doesn't exist
+        Files.createDirectories(Paths.get(directory));
+
         return directory;
     }
 
     //will make a CSS folder, only if the user wanted to
-    public String makeCSS() {
+    public String makeCSS() throws IOException {
         //this will help display directory of the css folder
         String directory = path + siteName + "/css";
-        File newFolder = new File(directory);
-        //make a new folder for css, useful for testing
-        newFolder.mkdirs();
+        //will make a new directory if it still doesn't exist
+        Files.createDirectories(Paths.get(directory));
+
         return directory;
     }
 
     //will produce the index.html
-    public String makeHTML() throws IOException {
+    public String makeHTML() {
         //will help display the directory of the index.html file
         String directory = path + siteName + "/index.html";
         //contents inside the html file

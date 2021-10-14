@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class Solution43 {
 
     private static final Scanner scanner = new Scanner(System.in);
-    private static final websiteGenerator newWebsite = new websiteGenerator();
+    private static final WebsiteGenerator newWebsite = new WebsiteGenerator();
 
     public static void main(String[] args) throws IOException {
         Solution43 sol43 = new Solution43();
