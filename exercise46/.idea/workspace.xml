@@ -63,7 +63,7 @@
       <recent name="baseline" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Solution46Test">
+  <component name="RunManager" selected="Application.Solution46">
     <configuration name="Solution46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baseline.Solution46" />
       <module name="exercise46.main" />

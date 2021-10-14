@@ -19,7 +19,7 @@ public class ProductInventory {
         //if the product is not found
         if (product == null){
             //print that it was not found
-            System.out.println("Sorry that product was not found in our inventory");
+            System.out.println("Sorry, that product was not found in our inventory");
             //return a string "not found", so the program will ask again
             return "not found";
         }
