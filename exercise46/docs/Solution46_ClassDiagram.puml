@@ -1,6 +1,8 @@
 @startuml
 class Solution46 {
+    'attribute
     -list: Map<String, Integer>
+
     +main(String[])
         'readFile object
         'store the lines scanned into the list
@@ -21,7 +23,9 @@ class Solution46 {
 }
 
 class countInstance {
+    'attribute
     -list: Map<String, Integer>
+
     'constructor
     +countInstance(Map<String, Integer> list)
 
@@ -36,7 +40,7 @@ class countInstance {
 class readFile{
     'constructor
     +readFile(String pathname)
-    -list: Map<String, Integer>
+
     +read(Map<String, Integer> list)
         'try:
             'will keep looping through the file

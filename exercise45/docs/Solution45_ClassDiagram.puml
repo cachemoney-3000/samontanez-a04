@@ -15,8 +15,10 @@ class Solution45 {
 
 class fileWriter {
     'call the fileWriter object
-    'attributes:
+
+    'attribute
     -list: list<String>
+
     'constructor
     -fileWriter(String name, List<String> list)
 
@@ -32,7 +34,8 @@ class fileWriter {
 }
 
 class readFile{
-    'scanner object
+    'call the scanner object
+
     'constructor
     +readFile(String pathname)
 
@@ -44,7 +47,6 @@ class readFile{
 
     'return the array list
 }
-
 
 Solution45 *-- readFile
 Solution45 *-- fileWriter

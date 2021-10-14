@@ -46,6 +46,7 @@ class Solution45Test {
 
         fileWriter writer = new fileWriter("exercise45_testing(1).txt", list);
         //actual output
+        //change the word She to He
         String actual = writer.writer("She", "He");
 
         assertEquals(expected,actual);

@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 class Solution46Test {
     @Test
     void test() throws FileNotFoundException {
