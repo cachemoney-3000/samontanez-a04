@@ -12,11 +12,11 @@ import java.util.Map;
 import java.util.Iterator;
 
 //responsible for reading the json file
-public class jsonParser {
+public class Parser {
     //this class will return a Map value that it will store to the Product method
     public static Map<String, Product> readFile(String filename) throws IOException {
-        //opening and parsing the file
-        Object parser = JsonParser.parseReader(new FileReader(filename));
+        //opening the parser object and parsing the file
+        Object parser = com.google.gson.JsonParser.parseReader(new FileReader(filename));
         JsonObject jsonObject = (JsonObject) parser;
 
         //create an array to store the products inside the file

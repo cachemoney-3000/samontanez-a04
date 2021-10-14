@@ -1,17 +1,6 @@
 package baseline;
 
-public class Product {
-    private final String name;
-    private final double price;
-    private final long quantity;
-
-    //constructor that will store the data from jsonParser
-    public Product(String name, double price, long quantity){
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
-    }
-
+public record Product(String name, double price, long quantity) {
     //get the name of the product for displaying output purposes
     public String getName() {
         return name;

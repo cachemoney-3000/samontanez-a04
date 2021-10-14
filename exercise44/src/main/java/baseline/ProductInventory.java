@@ -3,13 +3,13 @@ package baseline;
 import java.io.IOException;
 import java.util.Map;
 
-public class productInventory {
+public class ProductInventory {
     private final Map<String, Product> products;
 
     //this method will be called from the main method
-    public productInventory(String filename) throws IOException {
+    public ProductInventory(String filename) throws IOException {
         //will open the file
-        products = jsonParser.readFile(filename);
+        products = Parser.readFile(filename);
     }
 
     //method that will search for the product

@@ -1,9 +1,8 @@
 @startuml
 class Solution44 {
-    'attributes
     +main(String[])
         'BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        'productInventory inventory = new productInventory("data/exercise44_input.json");
+        'ProductInventory inventory = new ProductInventory("data/exercise44_input.json");
 
         'while loop that keeps looping if the product is not found
             'prompt user for a product
@@ -12,7 +11,7 @@ class Solution44 {
         'print out the final output
 }
 
-class jsonParser {
+class Parser {
     readFile()
         'parser object
         'store the product to an array
@@ -34,17 +33,17 @@ class Product{
     +geQuantity()
 }
 
-class productInventory{
+class ProductInventory{
     'attribute
     +product()
 
     +findProduct()
-    'return a string wether a product is found or not
+    'return a string if a product is found or not
 
 }
 
-Solution44 *-- productInventory
-productInventory -- jsonParser
-productInventory -- Product
-jsonParser -- Product
+Solution44 *-- ProductInventory
+ProductInventory -- Parser
+ProductInventory -- Product
+Parser -- Product
 @enduml

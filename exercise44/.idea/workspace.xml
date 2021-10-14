@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c581fbcd-59de-450b-915c-b278aee42bca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise46/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise46/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1cbe12c575c4cbd997663a79da6e67424b03e8b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/3150cf543e8e0441606182bdf93cd76745c89ed5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43e033d2779a437892e1ffd37444954a58e63a84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ed8bc95bcdb167ab4dfbdf85c9a8ea80c8aa4ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76142eb393b66cb2ccef08fe49131cab513ab5b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cba3fa9d6fef2aa32ea57e972cb61588f705d45e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cfcd15bd9321f4c3f0770cd865d4568c14c53f8e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution44_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution44_ClassDiagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/jsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/productInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/ProductInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseline/Solution44Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseline/Solution44Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise46/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise46/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +64,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/gson-2.8.8.jar" />
@@ -66,7 +81,7 @@
       <recent name="baseline" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Solution44Test">
+  <component name="RunManager" selected="Application.Solution44">
     <configuration name="Solution44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baseline.Solution44" />
       <module name="exercise44.main" />
