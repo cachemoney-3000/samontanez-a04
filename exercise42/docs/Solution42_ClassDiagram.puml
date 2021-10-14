@@ -4,17 +4,17 @@ class Solution42 {
     -employees: Arraylist((String[])
     main(String[])
         'Solution42 sol42 = new Solution42();
-        'employee name = new employee();
+        'Employee name = new Employee();
 
         'scanner to scan the file
         'store the scanned names to the list:
-        'name.sortEmployees(input, sol42.employee)
+        'name.sortEmployees(input, sol42.Employee)
 
         'display the output
-        'name.output(sol42.employee)
+        'name.output(sol42.Employee)
 }
 
-class employee {
+class Employee {
     'behaviors
     +sortEmployees()
         'if the input is null, print "file is empty"
@@ -31,5 +31,5 @@ class employee {
         'return the string builder
 }
 
-Solution42 *-- employee
+Solution42 *-- Employee
 @enduml

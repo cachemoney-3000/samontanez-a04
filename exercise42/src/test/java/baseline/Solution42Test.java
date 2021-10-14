@@ -12,19 +12,21 @@ class Solution42Test {
 
     @Test
     void sortNames() throws Exception {
-        employee sol42 = new employee();
+        Employee sol42 = new Employee();
         Scanner input = new Scanner(new File("data/exercise42_input.txt"));
         ArrayList<String> employee = new ArrayList<>();
 
-        String expected = "Last             First            Salary           \n" +
-                "----------------------------------------\n" +
-                "Johnson          Jim              56500            \n" +
-                "Jones            Aaron            46000            \n" +
-                "Jones            Chris            34500            \n" +
-                "Ling             Mai              55900            \n" +
-                "Swift            Geoffrey         14200            \n" +
-                "Xiong            Fong             65000            \n" +
-                "Zarnecki         Sabrina          51500            \n";
+        String expected = """
+                Last             First            Salary          \s
+                ----------------------------------------
+                Johnson          Jim              56500           \s
+                Jones            Aaron            46000           \s
+                Jones            Chris            34500           \s
+                Ling             Mai              55900           \s
+                Swift            Geoffrey         14200           \s
+                Xiong            Fong             65000           \s
+                Zarnecki         Sabrina          51500           \s
+                """;
 
 
         sol42.sortEmployees(input, employee);

@@ -21,7 +21,7 @@ public class Solution42 {
 
     public static void main(String[] args) throws FileNotFoundException {
         Solution42 sol42 = new Solution42();
-        employee name = new employee();
+        Employee name = new Employee();
 
         //will open the input file and scans them
         Scanner input = new Scanner(new File("data/exercise42_input.txt"));

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Formatter;
 import java.util.Scanner;
 
-public class employee {
+public class Employee {
 
     public void sortEmployees(Scanner input, List<String> employee){
         //if the input is null, print that the file is empty
