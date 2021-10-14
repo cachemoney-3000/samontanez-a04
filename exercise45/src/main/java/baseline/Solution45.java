@@ -26,13 +26,13 @@ public class Solution45 {
         String output = scanner.nextLine();
 
         //make an object that will read the file
-        readFile read = new readFile("data/exercise45_input.txt");
+        ReadFile read = new ReadFile("data/exercise45_input.txt");
         //will store the lines inside the text using the array list
         //responsible for scanning the file
         list = read.read(list);
 
         //make an object that will write a new file
-        fileWriter writer = new fileWriter(output, list);
+        Output writer = new Output(output, list);
         System.out.println("\nFinal output: ");
         //will store the string after the words have been replaced
         String display = writer.writer("utilize", "use");

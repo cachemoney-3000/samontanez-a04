@@ -5,11 +5,11 @@ import java.io.FileNotFoundException;
 import java.util.List;
 import java.util.Scanner;
 
-public class readFile {
+public class ReadFile {
     private final Scanner scanner;
 
     //constructor that will be use for scanning the file
-    public readFile(String pathname) throws FileNotFoundException {
+    public ReadFile(String pathname) throws FileNotFoundException {
         //file reader will take the pathname of the text file
         File fileReader = new File(pathname);
         //used for scanning the file

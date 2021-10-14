@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a2e4d4-818b-4d0a-b431-90f0ff843a31" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../exercise44/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise44/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise44/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise44/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/docs/Solution45_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/docs/Solution45_ClassDiagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Solution45.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Solution45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/fileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/readFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/replaceWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/main/java/baseline/ReplaceWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/src/test/java/baseline/Solution45Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/src/test/java/baseline/Solution45Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution46_ClassDiagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution46_ClassDiagram.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseline/Solution46Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseline/Solution46Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

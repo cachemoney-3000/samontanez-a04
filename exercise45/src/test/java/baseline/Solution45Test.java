@@ -13,7 +13,7 @@ class Solution45Test {
     //replace utilize with use
     void test() throws IOException {
         List<String> list = new ArrayList<>();
-        readFile read = new readFile("data/exercise45_input.txt");
+        ReadFile read = new ReadFile("data/exercise45_input.txt");
         list = read.read(list);
 
         //expected output
@@ -23,7 +23,7 @@ class Solution45Test {
                 uses an IDE to write her Java programs".
                 """;
 
-        fileWriter writer = new fileWriter("exercise45_testing.txt", list);
+        Output writer = new Output("exercise45_testing.txt", list);
         //actual output
         String actual = writer.writer("utilize", "use");
 
@@ -34,7 +34,7 @@ class Solution45Test {
     //replace she with he
     void test2() throws IOException {
         List<String> list = new ArrayList<>();
-        readFile read = new readFile("data/exercise45_input.txt");
+        ReadFile read = new ReadFile("data/exercise45_input.txt");
         list = read.read(list);
 
         //expected output
@@ -44,7 +44,7 @@ class Solution45Test {
                 utilizes an IDE to write her Java programs".
                 """;
 
-        fileWriter writer = new fileWriter("exercise45_testing(1).txt", list);
+        Output writer = new Output("exercise45_testing(1).txt", list);
         //actual output
         //change the word She to He
         String actual = writer.writer("She", "He");

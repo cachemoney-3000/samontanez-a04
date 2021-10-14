@@ -4,15 +4,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-public class fileWriter {
-    private final FileWriter writer;
+public class Output {
+    private final java.io.FileWriter writer;
     private final List<String> list;
 
     //constructor that will help to determine where to store the output file
-    public fileWriter(String name, List<String> list) throws IOException {
+    public Output(String name, List<String> list) throws IOException {
         //will create a new file
         //passing the parameters of the pathname where to store the new file
-        writer = new FileWriter("data/" + name);
+        writer = new java.io.FileWriter("data/" + name);
         //stores the contents collected from the readFile class
         this.list = list;
     }

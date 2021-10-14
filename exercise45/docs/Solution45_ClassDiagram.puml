@@ -5,22 +5,22 @@ class Solution45 {
 
     +main(String[])
         'prompt for the output file
-        'call the readFile object
+        'call the ReadFile object
         'store the scanned lines into the list
 
-        'call the fileWriter object
+        'call the Output object
         'prints out the output into a file
         'display the output that was written into the file
 }
 
-class fileWriter {
-    'call the fileWriter object
+class Output {
+    'call the Output object
 
     'attribute
     -list: list<String>
 
     'constructor
-    -fileWriter(String name, List<String> list)
+    -Output(String name, List<String> list)
 
     +writer(String toReplace, String replacement)
         'StringBuilder object
@@ -29,15 +29,15 @@ class fileWriter {
             'store the output into a string builder
             'prints out the output into a file
 
-        'close the fileWriter method
+        'close the Output method
         'return the string builder
 }
 
-class readFile{
+class ReadFile{
     'call the scanner object
 
     'constructor
-    +readFile(String pathname)
+    +ReadFile(String pathname)
 
     +read(List<String> list)
     'try scanning the lines
@@ -48,6 +48,6 @@ class readFile{
     'return the array list
 }
 
-Solution45 *-- readFile
-Solution45 *-- fileWriter
+Solution45 *-- ReadFile
+Solution45 *-- Output
 @enduml
