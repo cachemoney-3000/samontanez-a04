@@ -20,7 +20,7 @@ public class Solution41 {
     private final List<String> names = new ArrayList<>();
 
     public static void main(String[] args) throws FileNotFoundException {
-        name name = new name();
+        Names name = new Names();
         Solution41 sol41 = new Solution41();
 
         //scans the input file and takes the pathname where the file is located

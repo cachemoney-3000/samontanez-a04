@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.util.List;
 import java.util.Scanner;
 
-public class name {
+public class Names {
     public void sortNames(Scanner input, List<String> names) {
         //if the input file is empty, it will notify the user
         if (input == null) {

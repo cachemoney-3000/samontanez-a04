@@ -12,7 +12,7 @@ class Solution41Test {
     //check if the expected output will match
     //unsorted -> sorted names
     void sortNames() throws Exception{
-        name sol41 = new name();
+        Names sol41 = new Names();
         Scanner input = new Scanner(new File("data/exercise41_input.txt"));
         ArrayList<String> names = new ArrayList<>();
 

@@ -16,7 +16,7 @@ class Solution41 {
         'prints the display string
 }
 
-class name{
+class Names{
     'behaviors
     +sortNames(Scanner input, List<String> names)
         'if input is null
@@ -39,6 +39,6 @@ class name{
         'return the string builder
 }
 
-Solution41 *-- name
+Solution41 *-- Names
 
 @enduml
