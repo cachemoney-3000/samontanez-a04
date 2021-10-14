@@ -5,11 +5,11 @@ import java.io.FileNotFoundException;
 import java.util.Map;
 import java.util.Scanner;
 
-public class readFile {
+public class ReadFile {
     private final Scanner scanner;
 
     // constructor
-    public readFile(String pathname) throws FileNotFoundException {
+    public ReadFile(String pathname) throws FileNotFoundException {
         File file = new File(pathname);
         scanner = new Scanner(file);
     }

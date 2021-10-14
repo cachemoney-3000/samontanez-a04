@@ -2,14 +2,7 @@ package baseline;
 
 import java.util.*;
 
-public class countInstance {
-    private final Map<String,Integer> list;
-
-    //constructor that will store the list
-    public  countInstance(Map<String, Integer> list){
-        this.list = list;
-    }
-
+public record CountInstance(Map<String, Integer> list) {
     //method that will count the instances per word
     public String[] counter() {
         //for storing the word and count in an array
@@ -18,7 +11,7 @@ public class countInstance {
         int k = 0;
 
         //will iterate through the hashmap
-        for(Map.Entry<String, Integer> entry : list.entrySet()){
+        for (Map.Entry<String, Integer> entry : list.entrySet()) {
             //will get the word
             word[k] = entry.getKey();
             //and its corresponding count
@@ -28,13 +21,13 @@ public class countInstance {
         return sort(count, word);
     }
 
-    private String[] sort(Integer[] count, String[] word){
+    private String[] sort(Integer[] count, String[] word) {
         //variables for storing a temporary values
         int[] temp = new int[list.size()];
         String[] tempWord = new String[list.size()];
 
         // duplicate count arrays to temp
-        for(int i = 0; i < count.length; i++) {
+        for (int i = 0; i < count.length; i++) {
             temp[i] = count[i];
         }
 
@@ -42,13 +35,13 @@ public class countInstance {
         Arrays.sort(count, Collections.reverseOrder());
 
         //iterate through the hashmap
-        for(int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             //set the 'value' equals to 'count'
             int value = count[i];
             //iterate through the temp array
-            for(int j = 0; j < temp.length; j++) {
+            for (int j = 0; j < temp.length; j++) {
                 //if the value is equals to the temp
-                if(value == temp[j]) {
+                if (value == temp[j]) {
                     //make tempWord equals to word
                     //will only duplicate the word
                     tempWord[i] = word[j];

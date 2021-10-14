@@ -24,7 +24,7 @@ class Solution46 {
 
 class countInstance {
     'attribute
-    -list: Map<String, Integer>
+    +list: Map<String, Integer>
 
     'constructor
     +countInstance(Map<String, Integer> list)

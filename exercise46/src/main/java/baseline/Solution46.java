@@ -22,11 +22,11 @@ public class Solution46 {
         //class that will be responsible for reading the text file
         //it will also scan the lines and store it into an array list of strings
         //takes a parameter of the pathname of the input file
-        readFile read = new readFile("data/exercise46_input.txt");
+        ReadFile read = new ReadFile("data/exercise46_input.txt");
         list = read.read(list);
 
         //class that will be responsible for counting the occurrences of a word
-        countInstance count = new countInstance(list);
+        CountInstance count = new CountInstance(list);
         //stores the result from counting the numbers in a tempWord array
         String[] tempWord = count.counter();
 

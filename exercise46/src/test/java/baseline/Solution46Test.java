@@ -11,7 +11,7 @@ class Solution46Test {
     @Test
     void test() throws FileNotFoundException {
         Map<String, Integer> list = new HashMap<>();
-        readFile read = new readFile("data/exercise46_input.txt");
+        ReadFile read = new ReadFile("data/exercise46_input.txt");
         list = read.read(list);
 
         String expected = """
@@ -19,7 +19,7 @@ class Solution46Test {
                 mushroom : \t**
                 snake : \t*
                 """;
-        countInstance count = new countInstance(list);
+        CountInstance count = new CountInstance(list);
         String[] tempWord = count.counter();
         String actual = Solution46.display(tempWord, list);
 
